@@ -5,22 +5,22 @@ Ce repo est un guide d'introduction aux concepts fondamentaux de Git et GitHub. 
 ## 📚 Concepts Clés
 
 ### Git vs GitHub
-- **Git** : Système de contrôle de version distribué (DVCS) pour tracker les modifications de code [4][5]
-- **GitHub** : Plateforme cloud hébergeant des repos Git avec outils de collaboration [4][5]
+- **Git** : Système de contrôle de version distribué (DVCS) pour tracker les modifications de code 
+- **GitHub** : Plateforme cloud hébergeant des repos Git avec outils de collaboration 
 
 ### Architecture GitHub
 - **Frontend** : HTML/CSS/JavaScript pour l'interface utilisateur
-- **Backend** : Ruby on Rails + base de données MySQL distribuée [6]
-- **Microservices** : Architecture modulaire avec Docker/Kubernetes [6]
+- **Backend** : Ruby on Rails + base de données MySQL distribuée 
+- **Microservices** : Architecture modulaire avec Docker/Kubernetes 
 
 ### Composants Principaux
 | Terme | Définition | Commande Associée |
 |-------|------------|-------------------|
-| **Repository** | Dossier projet avec historique complet | `git init` [2] |
-| **Commit** | Instantané des modifications | `git commit -m "msg"` [3] |
-| **Branche** | Ligne de développement isolée | `git checkout -b feat` [2] |
-| **Pull Request** | Proposition de fusion de code | GitHub Web Interface [8] |
-| **Merge** | Intégration de changements | `git merge` [2][8] |
+| **Repository** | Dossier projet avec historique complet | `git init`  |
+| **Commit** | Instantané des modifications | `git commit -m "msg"` |
+| **Branche** | Ligne de développement isolée | `git checkout -b feat` |
+| **Pull Request** | Proposition de fusion de code | GitHub Web Interface |
+| **Merge** | Intégration de changements | `git merge` |
 
 ## 💻 Commandes Essentielles
 
@@ -50,15 +50,15 @@ git merge branche-secondaire
 ```
 
 ## 🔄 Workflow de Contribution
-1. **Forker** le repo via GitHub [7]
+1. **Forker** le repo via GitHub 
 2. **Cloner** en local : `git clone [URL]`
 3. Créer une **branche** : `git checkout -b amelioration`
 4. Faire des **commits** descriptifs
 5. **Pusher** : `git push origin amelioration`
-6. Ouvrir **Pull Request** sur GitHub [8]
-7. **Révision** + **Merge** des changements [8]
+6. Ouvrir **Pull Request** sur GitHub 
+7. **Révision** + **Merge** des changements 
 
 ## 📚 Ressources
-- [Documentation Officielle GitHub](https://docs.github.com) [2][5]
-- [Guide Visuel Git](https://www.pierre-giraud.com) [4]
-- [Commandes Avancées](https://www.simplilearn.com) [9]
+- [Documentation Officielle GitHub](https://docs.github.com)
+- [Guide Visuel Git](https://www.pierre-giraud.com) 
+- [Commandes Avancées](https://www.simplilearn.com)
